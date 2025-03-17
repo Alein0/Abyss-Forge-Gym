@@ -98,7 +98,7 @@ footer img{
     left: -20px;
     width: 100%;
     height: 100%;
-    background-color: #D5BD5C; /* Color dorado */
+    background-color: #D5BD5C; 
     border-radius: 8px;
     z-index: 1;
     /*transform: translate(-50%, -50%); Ajuste fino para centrar */
@@ -141,7 +141,6 @@ footer img{
     margin-bottom: 1.5rem;
   }
   
-  /* Botón personalizado (opcional, si quieres otro diseño) */
   .btn-warning {
     background-color: #D49D13;
     border: none;
