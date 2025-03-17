@@ -157,3 +157,72 @@ footer img{
   .btn-warning:hover {
     background-color: #b89d36;
   }
+
+/* Contenedor de la tarjeta de producto 2*/
+
+/* SECCIÓN CREATINA */
+.seccion-creatina {
+    padding: 5rem 0;
+    background-color: #141414; /* fondo oscuro */
+    color: #ffffff;
+  }
+  
+  .seccion-creatina h3 {
+    font-weight: 700;
+  }
+  
+  .descripcion-creatina {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .contenedor-boton {
+    display: flex;
+    justify-content: center; /* centro en móviles */
+  }
+  
+  @media (min-width: 768px) {
+    .contenedor-boton {
+      justify-content: flex-start; /* alineado a la izquierda en desktop */
+    }
+  }
+  
+  .boton-comprar {
+    font-weight: 700;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+  }
+  
+  /* IMAGEN Y FONDO */
+  .contenedor-imagen {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fondo-amarillo {
+    background-color: #D5BD5C;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 0;
+  }
+  
+  .imagen-creatina {
+    background-color: #D5BD5C;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .imagen-creatina img {
+    max-width: 250px;
+    height: auto;
+  }
+  
