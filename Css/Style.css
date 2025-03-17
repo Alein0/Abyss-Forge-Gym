@@ -14,7 +14,7 @@ h2{
 }
 
 .logo{
-    width: 80px;
+    width: 70px;
 }
 
 .impfondo {
@@ -24,28 +24,11 @@ h2{
 }
 
 .navbar{
-    background-color: rgba(0, 0, 0, 0.419);
+    background-color: rgba(0, 0, 0, 0.541);
 }
 
-.alinear{
-    vertical-align: middle;
-}
-  
-.sobreImgAbyss{
-    font-size: 100px;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    padding: 5px;
-    width: 100%;
-}
-.sobreImgTexto{
-    color: rgba(255, 255, 255, 0.805);
-    text-align: center;
-    position: absolute;
-    top: 70%;
-    padding: 5px;
-    width: 100%;
+.navbar-nav{
+    font-size: 18px;
 }
 
 .imgNav{
@@ -59,9 +42,7 @@ footer{
     padding: 10px;
     margin: 0px;
 }
-.footerderechos{
-    color: #878787;
-   }
+
 footer a {
     color: inherit;
     text-decoration: none;
@@ -75,4 +56,67 @@ footer img{
 
 .redes{
     vertical-align: middle;
+}
+
+.btn{
+    background-color: rgba(212, 157, 19, 1);
+    font-size: 25px;
+    padding: 20px 40px;
+    font-weight: 600;
+}
+
+
+.btn:hover{
+    background-color: rgb(144, 98, 0);
+    color: black;
+}
+
+.btn:active{
+    background-color: rgb(57, 39, 0) !important;
+}
+
+.TituloPrincipal{
+    font-size: 80px;
+}
+
+.imgPrincipal{
+    width: 100%;
+}
+
+.textoPrincipal{
+    font-size: 25px;
+    opacity: 70%;
+}
+
+.bgOscuro{
+    background-color: rgba(20, 20, 20, 1);
+    padding: 40px;
+}
+
+.tituloSecPrincipal{
+    font-size: 50px;
+    text-align: center;
+}
+
+.carousel{
+    width: 1000px;
+    align-items: center;
+}
+
+.conoceRemo{
+    width: 700px;
+    padding: 50px;
+}
+
+.TextoCompacto{
+    padding: 30px;
+    text-align: center;
+}
+
+.espacioTexto{
+    padding: 40px;
+}
+
+.siguenos{
+    font-size: 40px;
 }

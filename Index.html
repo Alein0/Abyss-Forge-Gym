@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abyss Forge Gym</title>
+    <link rel="shortcut icon" href="Img/Abyss.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet"  href="Css/Style.css">
 </head>
@@ -15,38 +16,98 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse alinear" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="Paginas/PlanesyServicios.html">Planes y servicios</a></li>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="Paginas/planesyservicios.html">Planes y servicios</a></li>
                     <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#entrenadores">Entrenadores</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#entrenadores"><img src="Img/carrito.png" class="imgNav"></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#entrenadores"><img src="Img/perfil.png" class="imgNav"></a></li>
-
+                    <li class="nav-item"><a class="nav-link" href="#carrito"><img src="Img/carrito.png" class="imgNav"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#perfil"><img src="Img/perfil.png" class="imgNav"></a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <header>
-        <div>
-            <img src="Img/principal.png" class="impfondo">
-            <h1 class="sobreImgAbyss"><b>ABYSS FORGE GYM</b></h1>
-            <p class="sobreImgTexto">No temas al abismo... forja tu fuerza en la oscuridad, resurge como leyenda</p>
-            <a href="#" class="btn">¡Inscríbete ya!</a>
+        <div class="position-relative">
+            <img src="Img/principal.png" class="imgPrincipal">
+            <div class="position-absolute top-50 start-50 translate-middle text-center">
+                <h1 class="TituloPrincipal"><b>ABYSS FORGE GYM</b></h1>
+                <p class="textoPrincipal"> <br>No temas al abismo... <br> forja tu fuerza en la oscuridad, resurge como leyenda <br><br></p>
+                <a href="#" class="btn">¡Inscríbete ya!</a>
+            </div>
         </div>
     </header>
-<!-- Footer Section -->
+
+    <section class="bgOscuro">
+        <h1 class="tituloSecPrincipal">Nuestro gimnasio</h1>
+        <br>
+        <div class="d-flex justify-content-center">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Img/GymFoto1.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="Img/GymFoto2.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="Img/WheyFoto3.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="Img/ComidaFoto4.png" class="d-block w-100">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="tituloSecPrincipal espacioTexto">Conoce nuestros planes</h2>
+                    <div class="TextoCompacto">
+                        <p class="textoPrincipal">Encuentra todos los detalles que los diferentes planes de nuestro gimnasio pueden ofrecerte, ¡anímate a conocer nuestras ofertas!</p>
+                        <br>
+                        <br>
+                        <button class="btn">Planes y servicios</button>
+                    </div>
+                </div>
+        
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img class="conoceRemo" src="Img/GymRemo.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <h2>SÍGUENOS</h2>
+        <h2 class="siguenos">SÍGUENOS</h2>
             <div>
                 <a href=""><img src="Img/insta.png">Instagram</a>
                 <a href=""><img src="Img/tiktok.png">TikTok</a>
                 <a href=""><img src="Img/youtube.png">YouTube</a>
             </div>
-        <h5 class="footerderechos">©2025 Abyss Forge Gym. Todos los derechos reservados.</h5>
+        <p class="textoPrincipal">©2025 Abyss Forge Gym. All rights reserved.</p>
     </footer>
-
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
