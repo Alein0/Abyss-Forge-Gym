@@ -144,6 +144,28 @@ footer img{
 }
 
 .coachesImgHorario{
-    width: 250px;
+    width: 600px;
     padding: 20px;
+}
+
+.agendaTabla{
+    width: 100%;
+    color: white;
+    border: 2px solid #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.agendaTabla th, .agendaTabla td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+.agendaTabla th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.horas{
+    text-align: center;
 }
