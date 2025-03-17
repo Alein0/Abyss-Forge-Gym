@@ -1,0 +1,257 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.logo{
+    width: 80px;
+}
+
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.419);
+
+}
+
+.alinear{
+    vertical-align: middle;
+}
+  
+
+.Titulo {
+    color: rgba(255, 255, 255, 0.805);
+    text-align: center;
+    padding: 50px 10px;
+    margin-top: 120px; 
+    font-size: 4rem;
+}
+
+.imgNav{
+    width: 40px;
+    opacity: 80%;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0px;
+}
+.footerderechos{
+ color: #878787;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+footer img{
+    vertical-align: middle;
+    width: 80px;
+}
+
+.redes{
+    vertical-align: middle;
+}
+
+/* seccion estilos planes*/
+
+.pricing-card {
+    padding: 30px;
+    border-radius: 60px;
+    color: #fff;
+    margin: 20px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s;
+  }
+  .pricing-card:hover {
+    transform: scale(1.05);
+  }
+
+  .abyss {
+    background: linear-gradient(145deg, #544D32, #7C7144, #423F31);
+  }
+  .steel {
+    background: linear-gradient(145deg, #6C590D, #CFB550, #5B4C0E);
+  }
+  .flame {
+    background: linear-gradient(145deg, #483310, #D78425,#483310);
+  }
+  .price {
+    font-size: 3rem;
+    margin: 30px 0;
+  }
+  .btn-custom {
+    
+    background-color: #D49D13;
+   
+        border: none;
+        padding: 10px 28px; 
+        font-weight: bold;
+        border-radius: 10px;
+        color: #000;
+        width: 50%;
+       margin: 0 auto;
+    }
+    
+  
+  .btn-custom:hover {
+    background-color:  #D49D13;
+    color: #fff;
+  }
+
+  .signopesos {
+    font-size: 6rem; 
+    color: #ccc;     
+    margin-right: 5px; 
+    vertical-align: middle;
+  }
+  .valor {
+    font-size: 3rem;
+    position: relative;
+    top: 10px; 
+  }
+  .tituloplan {
+    font-size: 2.5rem;
+  }
+  .tiempo{
+    position: relative;
+    top: 20px; 
+  }
+  .info{
+    position: relative;
+    top:-20px; 
+  }
+
+  /* Sección Servicios */
+
+.servicios-section {
+    padding: 50px 10%;
+    background-color: #111;
+    color: white;
+}
+
+.titulo-servicios {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.servicio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.servicio-img {
+    
+    width:310px;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.servicio-img h3 {
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+
+.servicio p {
+    flex: 1;
+    margin: 0;
+    text-align: justify;
+}
+
+  /* Sección metodos de pago */
+
+.metodos-pago {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+}
+
+.metodos-pago h2 {
+  color: white;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+
+
+.tarjetaC {
+  color: white;
+  margin-top: -50px;
+
+}
+
+.tarjetaD {
+  color: white;
+  margin-top: 50px;
+ 
+} 
+
+.tarjeta p{
+  margin-left: -50px;
+  margin-top: -150px;
+  font-size: 1.8rem;
+}
+
+.tarjeta2 p{
+
+margin-left: -50px;
+  margin-top: -70px;
+  font-size: 1.8rem;
+}
+
+.whatsapp {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.whatsapp p {
+ 
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
