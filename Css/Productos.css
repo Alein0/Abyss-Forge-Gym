@@ -1,0 +1,158 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.logo{
+    width: 80px;
+}
+
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.419);
+
+}
+
+.alinear{
+    vertical-align: middle;
+}
+  
+
+.Titulo {
+    color: rgba(255, 255, 255, 0.805);
+    text-align: center;
+    padding: 50px 10px;
+    margin-top: 120px; 
+    font-size: 4rem;
+}
+
+.imgNav{
+    width: 40px;
+    opacity: 80%;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0px;
+}
+.footerderechos{
+ color: #878787;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+footer img{
+    vertical-align: middle;
+    width: 80px;
+}
+
+.redes{
+    vertical-align: middle;
+}
+
+/*css para pagina proteina XD*/
+
+/* Contenedor de la tarjeta de producto 1-3*/
+.product-card {
+    background-color:  rgb(29, 29, 29); 
+    padding: 2rem;
+    display: flex;
+    flex-direction: row; /* para alinear imagen y texto horizontalmente */
+    align-items: center; /* centra verticalmente */
+    justify-content: flex-start; /* alinea a la izquierda */
+    gap: 3rem; /* espacio entre imagen y texto */
+  }
+  
+  /* Contenedor que mantiene la imagen y el fondo */
+  .product-image-container {
+    position: relative;
+    width: 450px; /* Puedes ajustar según necesites */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Capa amarilla detrás de la imagen */
+  .background-layer {
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    background-color: #D5BD5C; 
+    border-radius: 8px;
+    z-index: 1;
+    /*transform: translate(-50%, -50%); Ajuste fino para centrar */
+    
+  }
+  
+  /* Imagen principal encima del fondo */
+  .image-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .image-layer img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  /* Información del producto */
+  .product-info {
+    max-width: 400px;
+  }
+
+  .product-info h3 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .product-info p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn-warning {
+    background-color: #D49D13;
+    border: none;
+    color: #000;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+
+  }
+  
+  .btn-warning:hover {
+    background-color: #b89d36;
+  }
