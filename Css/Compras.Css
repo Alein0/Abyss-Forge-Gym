@@ -1,0 +1,95 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+
+.Titulo {
+    color: rgba(255, 255, 255, 0.805);
+    text-align: center;
+    padding: 50px 10px;
+    margin-top: 120px;
+    font-size: 4rem;
+}
+
+.btn-custom {
+    background-color: #ffc107;
+    color: black;
+    font-weight: bold;
+}
+
+/* Contenedor producto */
+.producto {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 90%; 
+    padding: 20px;
+    background-color: #1f1f1f;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.producto h5 {
+    margin: 0;
+}
+
+.producto .btn-close {
+    margin-left: 10px;
+}
+
+.imagen-item {
+    width: 200px;  
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+
+/* Subtotal contenedor */
+.subtotal {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Botón de pagar */
+.pagar {
+    width: 90%;
+    margin: 20px auto;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0px;
+}
+
+.footerderechos {
+    color: #878787;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+footer img {
+    vertical-align: middle;
+    width: 80px;
+}
+
+.redes {
+    vertical-align: middle;
+}
