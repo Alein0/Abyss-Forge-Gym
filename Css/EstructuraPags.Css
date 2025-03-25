@@ -21,12 +21,13 @@ h2{
     font-size: 4rem;
 }
 
+/*Compacta textos especificos*/
 .TextoCompacto{
     padding: 30px;
     text-align: center;
 }
 
-/*Diseño botones de bootstrap*/
+/*Diseño boton de boostrap personalizado*/
 .btn{
     background-color: rgba(212, 157, 19, 1);
     font-size: 25px;
@@ -44,7 +45,7 @@ h2{
 }
 
 
-/*Barra de navegación, personalización*/
+/*Barra de navegación con boostrap, personalización*/
 .logo{
     width: 70px;
 }

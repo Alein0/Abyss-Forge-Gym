@@ -1,9 +1,12 @@
-.TituloPrincipal{
-    font-size: 80px;
-}
-
+/*Ajusta la imagen de fondo*/
 .imgPrincipal{
     width: 100%;
+    height: 120vh;
+    object-fit: cover;
+}
+
+.TituloPrincipal{
+    font-size: 80px;
 }
 
 .textoPrincipal{
@@ -11,6 +14,13 @@
     opacity: 70%;
 }
 
+/*Ajuste del boton*/
+.btn-Secundario{
+    font-size: 20px;
+    padding: 12px;
+}
+
+/*Fondo oscuro para seccion (Nuestro gym) de la pagina*/
 .bgOscuro{
     background-color: rgba(20, 20, 20, 1);
     padding: 40px;
@@ -21,16 +31,19 @@
     text-align: center;
 }
 
+/*Ajuste del tamaño del carrusel de boostrap*/
 .carousel{
     width: 1000px;
     align-items: center;
 }
 
+/*Ajuste de tamaño de iamgen seccion Conoce nuestros planes*/
 .conoceRemo{
     width: 700px;
     padding: 50px;
 }
 
+/*Ajusta el texto de la seccion Conoce nuestros planes*/
 .espacioTexto{
     padding: 40px;
 }
