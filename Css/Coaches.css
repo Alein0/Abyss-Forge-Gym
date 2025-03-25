@@ -1,0 +1,55 @@
+.tituloHorario{
+    text-align: center;
+
+}
+
+.pagSecundaria{
+    margin-top: 8%;
+}
+
+.coachesImg{
+    width: 320px;
+    padding: 20px;
+}
+
+.coachesAline{
+    padding: 20px;
+}
+
+.subtitloCoach{
+    font-weight: 700;
+    font-size: 25px;
+    opacity: 70%;
+}
+
+.nombreCoach{
+    font-size: 40px;
+}
+
+.coachesImgHorario{
+    width: 600px;
+    padding: 20px;
+}
+
+.agendaTabla{
+    width: 100%;
+    color: white;
+    border: 2px solid #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.agendaTabla th, .agendaTabla td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+.agendaTabla th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.horas{
+    text-align: center;
+}
+  
