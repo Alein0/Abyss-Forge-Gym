@@ -36,10 +36,11 @@
 .subtotal {
     width: 100%;
     margin: 0 auto;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 0px;
+    padding:  10px 20px;
     background-color: #1f1f1f;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
 }
 
 /* Botón de pagar */
@@ -49,4 +50,3 @@
     font-size: 18px;
     border-radius: 12px;
 }
-
